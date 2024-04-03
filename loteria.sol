@@ -15,7 +15,7 @@ contract loteria is ERC20, Ownable {
     address public nft;
 
     // Constructor 
-    constructor() ERC20("Loteria", "JA"){
+    constructor() ERC20("Loteria", "JMS"){
         _mint(address(this), 1000);
         nft = address(new mainERC721());
     }
